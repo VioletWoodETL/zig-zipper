@@ -1,0 +1,19 @@
+.{
+    .name = .zipper,
+
+    .version = "0.0.0",
+
+    .fingerprint = 0x5a460681f66f9de4, // Changing this has security and trust implications.
+
+    .minimum_zig_version = "0.14.0",
+
+    .dependencies = .{},
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
