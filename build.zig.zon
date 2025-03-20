@@ -3,11 +3,16 @@
 
     .version = "0.0.0",
 
-    .fingerprint = 0x5a460681f66f9de4, // Changing this has security and trust implications.
+    .fingerprint = 0x1616dd06a188f4ca, // Changing this has security and trust implications.
 
     .minimum_zig_version = "0.14.0",
 
-    .dependencies = .{},
+    .dependencies = .{
+        .zeit = .{
+            .url = "git+https://github.com/rockorager/zeit.git#79e392d1184e318ad2a54cf42e36ba3123391d6b",
+            .hash = "zeit-0.0.0-5I6bk5daAgASbSupjVyf3fqveUh-TyF6N8CVVgTdmCgG",
+        },
+    },
 
     .paths = .{
         "build.zig",
